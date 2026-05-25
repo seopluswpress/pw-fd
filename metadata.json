@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise AI Preventive Maintenance Platform",
+  "description": "An enterprise-grade, multi-tenant AI-powered Preventive Maintenance SaaS platform featuring asset management, work order scheduling, QR scanning, IoT health dashboards, and Gemini-powered fault diagnosis.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
