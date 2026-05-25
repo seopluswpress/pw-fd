@@ -1,12 +1,15 @@
 {
   "name": "react-example",
+  "homepage": "https://seopluswpress.github.io/pw-fd/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "frontend": "vite",
+    "dev": "vite",
     "build": "vite build",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "predeploy":"bun run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.1053.0",
@@ -16,6 +19,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
     "react": "^19.0.1",
